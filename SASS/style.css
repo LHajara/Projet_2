@@ -1,0 +1,109 @@
+/* *{
+    box-sizing: border-box;
+width:100%;
+} */
+
+.ligne1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;      
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    margin: 25px;
+}
+/* .barrederecherche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    
+} */
+
+/************************ barre de recherche ***********************/
+.boutonheader{
+    padding-top: 11px;
+    display:flex;
+    
+    justify-content: space-around;
+    border-radius: 30px ;
+    border: 0.5px solid rgb(210, 201, 201);
+    background-color:rgb(251, 251, 251);
+    width:400px;
+    min-height: 40px;
+    
+}
+.loupe{ 
+    width: 17px;
+    height:17px;
+
+    display: flex;
+    color: rgb(243, 247, 247);
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 5.3333
+
+}
+
+.loupeshadow {
+    display: flex;
+    align-items: center;
+  /* flex-direction: row; */
+    width: 30px;
+    height:30px;
+    border-radius: 20px;
+    background-color: rgb(218, 129, 129);
+    margin-bottom: 4px;
+}
+/************************* bouton de connexion ******************/
+.boutonlogin{
+    border-radius: 30px;
+    border: 0.3px solid rgb(214, 212, 212);
+    background-color:rgb(251, 251, 251);
+
+}
+
+  /* petites vignettes du menu , et aligner les images au centre avec le texte*/
+  .iconecentre{ 
+    display: flex;
+flex-direction: column;
+align-items: center;
+  
+  }
+.menuheader{
+    border-top: 0.5px  solid rgb(195, 192, 192);
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+
+/* Les différentes photos de locations  */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.card{
+    border-radius: 15px;
+    width:300px;
+    height:300px;
+    margin: 4px;
+}
+.allcards{
+    margin-bottom: 20px;
+}
+

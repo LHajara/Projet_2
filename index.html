@@ -7,121 +7,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./SASS/style.css">
     <link rel="stylesheet" href="./SASS/style.scss">
-
     <title>Document</title>
 </head>
 
 <body>
+    <!-------------------------- en-tête--------------- -->
     <Header>
-       <div class="ligne1">
-<span class="barrederecherche"></span>
-        <img src="./images/Logo 2.jpg" width="100px" class="logo">
-        
-        <button type="button" class="boutonheader"><span>N'importe où |</span><span> une semaine |</span>
-            <span> Ajouter des voyageurs</span>
-        </button>
-        </span>
-        <a href="#">Mettre mon logement sur Airbnb</a>
-        <button type="button" > <img src="./images/menu.png" alt="login" width="20px"><img
-                src="./images/user-profile.png" alt="login" width="20px">
-        </button>
-        <nav>
-</div>
-<div class ="menuheader">
-            <a href="#"><img src="./images/piscine.png" width="30px">
-                <div>Piscine</div>
+        <div class="ligne1">
+            <span class="barrederecherche"></span>
+            <img src="./images/Logo 2.jpg" width="130px" class="logo">
+
+            <button type="button" class="boutonheader"><span>N'importe où |</span><span> une semaine |</span>
+                <span> Ajouter des voyageurs</span>
+                <!-- code de la loupe -->
+                <div class="loupeshadow "><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <g class="loupe">
+                            <img src="./images/loupe.svg" alt="bouton de recherche" class="loupe">
+                        </g>
+                    </svg></div>
+
+            </button>
+
+            <a href="#">Mettre mon logement sur Airbnb</a>
+            <button type="button" class="boutonlogin"> <img src="./images/menu.png" alt="login" width="20px"><img
+                    src="./images/user-profile.png" alt="login" width="20px">
+            </button>
+        </div>
+
+        <nav class="menuheader">
+            <a href="#">
+                <div class="iconecentre"><img src="./images/piscine.png" width="30px">
+                    <div>Piscine</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/bord-de-mer.png" width="30px">
-                <div>Bord de mer</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/bord-de-mer.png" width="40px">
+                    <div>Bord de mer</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/avec-vue.png" width="30px">
-                <div>Avec vue</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/avec-vue.png" width="30px">
+                    <div>Avec vue</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/campagne.png" width="30px">
-                <div>Campagne</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/campagne.png" width="30px">
+                    <div>Campagne</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/espace-de-jeu.png" width="30px">
-                <div>espace de jeu</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/espace-de-jeu.png" width="30px">
+                    <div>espace de jeu</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/skier.png" width="30px">
-                <div>Au pied des pistes</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/skier.png" width="30px">
+                    <div>Au pied des pistes</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/luxe.png" width="30px">
-                <div>Luxe</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/luxe.png" width="30px">
+                    <div>Luxe</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/domes.png" width="30px">
-                <div>Dômes</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/domes.png" width="30px">
+                    <div>Dômes</div>
+                </div>
             </a>
-            <a href="#"><img src="./images/grande_demeurs.jpg" width="40px">
-                <div>Grandes demeures</div>
+            <a href="#">
+                <div class="iconecentre"><img src="./images/grande_demeurs.jpg" width="45px">
+                    <div>Grandes demeures</div>
+                </div>
             </a>
 
-            </div>
         </nav>
         <br>
     </Header>
-
+    <!-- ----------------------corps de page / elements cards --------------->
     <main>
-
-        <div class="card"> <img src="./images/Macheren.webp">
-            <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p>
+        <div class="allcards"> <img src="./images/Macheren.webp" class="card">
+            <p>Macheren, France <br> Particulier <br>24-29 mars <br> 130 par nuit€</p>
             <span>*4,95</span>
         </div>
-        <div class="card"> <img src="./images/Macheren.webp">
-            <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
+        <div class="allcards"> <img src="./images/Fraisans.webp" class="card">
+            <p>Fraisans, France <br> Professionnel <br>5-10mars <br> 182€ par nuit</p><span>*4,83</span>
         </div>
 
-        <div class="card"> <img src="./images/chrstian malford.webp">
+        <div class="allcards"> <img src="./images/chrstian malford.webp" class="card">
+            <p>Christian Malford, Royaume-Uni<br> Particulier <br>1-6 mars <br> 704€ par nuit</p><span>*4,97</span>
+        </div>
+        <div class="allcards"> <img src="./images/ranmore.webp" class="card">
+            <p>Christian Malford, Royaume-Uni <br> Particulier <br>01-06 mars <br> 704 par nuit€</p><span>*4,95</span>
+        </div>
+        <div class="allcards"> <img src="./images/Le boulay.webp" class="card">
             <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
         </div>
-        <div class="card"> <img src="./images/ranmore.webp">
+        <div class="allcards"> <img src="./images/vauville.webp" class="card">
             <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
         </div>
-        <div class="card"> <img src="./images/Le boulay.webp">
+        <div class="allcards"> <img src="./images/west sussex.webp" class="card">
             <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
         </div>
-        <div class="card"> <img src="./images/vauville.webp">
-            <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
-        </div>
-        <div class="card"> <img src="./images/west sussex.webp">
-            <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
-        </div>
-        <div class="card"> <img src="./images/Montrieux.webp">
+        <div class="allcards"> <img src="./images/Montrieux.webp" class="card">
             <p>Macheren, france <br> Particulier <br>24-29 mars <br> 130 par nuit€</p><span>*4,95</span>
         </div>
 
     </main>
+
+    <!------------------------------------ Pied de page  ---------------->
     <Footer>
 
-        <div>
-            <div><span>© 2023 Airbnb, Inc.</span><span>·</span><span>
+        <div class="footer">
+            <div><span>© 2023 Airbnb, Inc.</span><span>·</span>
+                <span>
                     <ol>
                         <li><a href="/terms/privacy_policy">Confidentialité</a><span><span><span>·</span></span></span>
                         </li>
                         <li><span><span><span>·</span></span></span><a href="/terms">Conditions
                                 générales</a><span><span><span>·</span></span></span></li>
-                        <li><span><span><span>·</span></span></span><a    >Plan du
+                        <li><span><span><span>·</span></span></span><a href="/sitemaps/v2">Plan du
                                 site</a><span><span><span>·</span></span></span></li>
                         <li><span><span><span>·</span></span></span><a href="/fonctionnement_du_site">Fonctionnement du
                                 site</a><span><span><span>·</span></span></span></li>
                         <li><span><span><span>·</span></span></span><a href="/about/company-details">Infos sur
                                 l'entreprise</a></li>
                     </ol>
-                </span><span></span>·</span><button type="button">Destinations</button></div>
+                </span>
+                <span></span><span>·</span>
+                <button type="button">Destinations</button>
+            </div>
             <div></div>
             <div>
                 <div>
-                    <spa><button type="button"><span>Sélectionnez une
-                                langue</span><span><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                    <span>
+                        <button type="button">
+                            <span>Sélectionnez une langue</span>
+                            <span>
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                                     aria-hidden="true" role="presentation" focusable="false"
                                     style="display: block; height: 16px; width: 16px; fill: currentcolor;">
-                                    <path
-                                        d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z">
-                                    </path>
-                                </svg></span><span>Français (FR)</span></button></spa><span><button
-                            type="button"><span>Sélectionnez une
-                                devise</span><span><span>€</span></span><span>EUR</span></button></span>
-                </div><button type="button"><span><span>Assistance et ressources</span><span><svg viewBox="0 0 32 32"
+                                    <img src="./images/globe.svg" alt="globe">
+                                </svg>
+                            </span>
+                            <span>Français (FR)</span>
+                        </button>
+                    </span><span>
+                        <button type="button">
+                            <span>Sélectionnez une devise</span>
+                            <span><span>€</span></span><span>EUR</span>
+                        </button>
+                    </span>
+                </div>
+                <button type="button">
+                    <span>
+                        <span>Assistance et ressources</span>
+                        <span>
+                            <svg viewBox="0 0 32 32"
                                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation"
                                 focusable="false"
                                 style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
@@ -130,11 +172,12 @@
                                         d="m4 20 11.2928932-11.29289322c.3905243-.39052429 1.0236893-.39052429 1.4142136 0l11.2928932 11.29289322">
                                     </path>
                                 </g>
-                            </svg></span></span></button>
+                            </svg>
+                        </span>
+                    </span>
+                </button>
             </div>
         </div>
-
-
     </Footer>
 </body>
 
